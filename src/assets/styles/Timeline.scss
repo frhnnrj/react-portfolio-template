@@ -36,3 +36,15 @@
         color: rgb(39, 40, 34);
     }
 }
+
+.timeline-note {
+    font-size: 0.8em;
+    color: rgba(255, 255, 255, 0.35);
+    margin-top: 10px;
+    font-style: italic;
+    text-align: center;
+}
+
+.light-mode .timeline-note {
+    color: rgba(0, 0, 0, 0.35);
+}
