@@ -47,18 +47,18 @@ function Project() {
                 </div>
 
                 <div className="project">
-                    <a href="https://github.com/Alhazir-akbar/chatbot-magang-python/tree/farhan" target="_blank" rel="noreferrer">
+                    <a href="https://github.com/frhnnrj/chatbot_magang_RAG" target="_blank" rel="noreferrer">
                         <div className="img-wrapper">
-                            <img src={mock03} alt="AI Chatbot RAG" width="100%" />
+                            <img src={mock03} alt="AI Chatbot Dual-Ingestion RAG" width="100%" />
                         </div>
                     </a>
-                    <a href="https://github.com/Alhazir-akbar/chatbot-magang-python/tree/farhan" target="_blank" rel="noreferrer"><h2>AI Chatbot (RAG)</h2></a>
+                    <a href="https://github.com/frhnnrj/chatbot_magang_RAG" target="_blank" rel="noreferrer"><h2>AI Chatbot Dual-Ingestion RAG</h2></a>
                     <div className="project-tags">
-                        <span>Python</span><span>FastAPI</span><span>RAG</span><span>OCR</span>
+                        <span>Python</span><span>FastAPI</span><span>Dual-Ingest RAG</span><span>Nanonets DocString</span><span>Qdrant</span><span>PostgreSQL</span>
                     </div>
-                    <p>Smart RAG-based chatbot using FastAPI and Python to answer questions from documents and images using OCR and OpenAI API.</p>
+                    <p>Dual-Ingestion RAG chatbot for DISKOMINFO DIY integrating Tesseract OCR and Nanonets DocString for document processing, with Qdrant vector DB and OpenRouter API.</p>
                     <div className="project-links">
-                        <a href="https://github.com/Alhazir-akbar/chatbot-magang-python/tree/farhan" target="_blank" rel="noreferrer">GitHub</a>
+                        <a href="https://github.com/frhnnrj/chatbot_magang_RAG" target="_blank" rel="noreferrer">GitHub</a>
                     </div>
                 </div>
 
@@ -82,14 +82,14 @@ function Project() {
                 <div className="project">
                     <a href="https://github.com/frhnnrj/rag_anything" target="_blank" rel="noreferrer">
                         <div className="img-wrapper">
-                            <img src={mock05} alt="RAG Anything" width="100%" />
+                            <img src={mock05} alt="RAG Anything (Graph RAG)" width="100%" />
                         </div>
                     </a>
-                    <a href="https://github.com/frhnnrj/rag_anything" target="_blank" rel="noreferrer"><h2>RAG Anything</h2></a>
+                    <a href="https://github.com/frhnnrj/rag_anything" target="_blank" rel="noreferrer"><h2>RAG Anything (Graph RAG)</h2></a>
                     <div className="project-tags">
-                        <span>Python</span><span>RAG</span><span>LLM</span>
+                        <span>Python</span><span>LightRAG</span><span>MinerU</span><span>Graph RAG</span><span>Qwen Embeddings</span>
                     </div>
-                    <p>Experimental RAG (Retrieval-Augmented Generation) system built with Python, enabling intelligent Q&A from various document types.</p>
+                    <p>Multimodal GraphRAG system utilizing LightRAG knowledge graph extraction, MinerU document parsing, and Qwen embeddings for intelligent multi-format Q&A.</p>
                     <div className="project-links">
                         <a href="https://github.com/frhnnrj/rag_anything" target="_blank" rel="noreferrer">GitHub</a>
                     </div>

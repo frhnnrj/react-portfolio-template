@@ -21,17 +21,21 @@ const labelsFirst = [
 ];
 
 const labelsSecond = [
-    "RAG",
-    "OCR",
+    "Graph RAG",
+    "LightRAG",
+    "Dual-Ingestion RAG",
+    "MinerU",
     "Nanonets DocString",
-    "Vector Database",
+    "Tesseract OCR",
+    "Qdrant (Vector DB)",
+    "PostgreSQL",
     "FastAPI",
     "Python",
-    "OpenAI API",
-    "LangChain",
+    "Sentence Transformers",
+    "OpenRouter API",
     "Docker",
-    "Postgre",
 ];
+
 
 const labelsThird = [
     "Google Ads",
@@ -64,7 +68,7 @@ function Expertise() {
                     <div className="skill">
                         <FontAwesomeIcon icon={faPython} size="3x" />
                         <h3>AI Chatbot & RAG Systems</h3>
-                        <p>Developed AI chatbot at DISKOMINFO DIY using Dual-Ingest RAG pipeline integrated with OCR and Nanonets DocString for intelligent document processing and structured querying. Built backend services for ingestion, embeddings, and retrieval.</p>
+                        <p>Developed production-ready Dual-Ingestion RAG pipelines integrating Tesseract OCR and Nanonets DocString for structured document intelligence at DISKOMINFO DIY. Built advanced Graph RAG architectures with LightRAG and MinerU for multimodal document parsing, backed by Qdrant vector database, PostgreSQL, and FastAPI services.</p>
                         <div className="flex-chips">
                             <span className="chip-title">Tech stack:</span>
                             {labelsSecond.map((label, index) => (

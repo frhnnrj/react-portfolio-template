@@ -133,6 +133,39 @@
         }
     }
 
+    .resume-buttons {
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+        margin-bottom: 14px;
+
+        .btn-resume {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            color: rgba(255, 255, 255, 0.8);
+            padding: 7px 16px;
+            border-radius: 20px;
+            font-size: 0.82em;
+            font-weight: 500;
+            transition: all 0.2s ease;
+            text-decoration: none;
+            background: transparent;
+
+            svg {
+                font-size: 1em !important;
+            }
+
+            &:hover {
+                border-color: #9b6dff;
+                color: #9b6dff;
+                background: rgba(155, 109, 255, 0.1);
+                transform: translateY(-2px);
+            }
+        }
+    }
+
     h1 {
         font-size: 3.8em;
         margin-block-start: 0px;

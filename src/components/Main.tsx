@@ -10,6 +10,7 @@ import WebIcon from '@mui/icons-material/Web';
 import CampaignIcon from '@mui/icons-material/Campaign';
 import BuildIcon from '@mui/icons-material/Build';
 import FolderIcon from '@mui/icons-material/Folder';
+import DownloadIcon from '@mui/icons-material/Download';
 import '../assets/styles/Main.scss';
 
 function Main() {
@@ -38,6 +39,14 @@ function Main() {
           <div className="hero-buttons">
             <a href="mailto:muhamadfarhan171004@gmail.com" className="btn-primary">Hire Me</a>
             <a href="https://github.com/frhnnrj" target="_blank" rel="noreferrer" className="btn-secondary">View GitHub</a>
+          </div>
+          <div className="resume-buttons">
+            <a href="/CV_Muhamad_Farhan_Nurjamil_EN.pdf" download className="btn-resume">
+              <DownloadIcon fontSize="small" /> Resume (EN)
+            </a>
+            <a href="/CV_Muhamad_Farhan_Nurjamil_ID.pdf" download className="btn-resume">
+              <DownloadIcon fontSize="small" /> Resume (ID)
+            </a>
           </div>
           <div className="mobile_social_icons">
             <a href="https://github.com/frhnnrj" target="_blank" rel="noreferrer"><GitHubIcon /></a>
